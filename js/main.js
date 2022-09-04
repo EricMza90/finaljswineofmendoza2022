@@ -4,7 +4,7 @@ const array = [];
 function jsonALocalStorage() {
 
 
-  fetch("/json/articulos.json")
+  fetch("../json/articulos.json")
     .then((respuesta) => respuesta.json())
     .then((data) => {
       if (typeof data === "string") {
