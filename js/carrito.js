@@ -24,12 +24,12 @@ function itemsEnCarrito() {
           <tr>
             <td class="align-middle fw-bold ">${vino.nombre}</td>
             <td id="${vino.id}" class="text-center container-eliminar" width="30"><a href="" class="btn">
-            <img src="/image/quitar.png" alt="cart" class="btn-eliminar" title="Quitar" width="22"><span class="badge bg-secondary"></span></img>
+            <img src="../image/quitar.png" alt="cart" class="btn-eliminar" title="Quitar" width="22"><span class="badge bg-secondary"></span></img>
             
           </a></td>
           <td class=" container-tabla text-center align-middle fw-bold" width="30">${vino.cantidad}</td>
           <td id="${vino.id}" class="text-center container-agregar" width="30"><a href="" class="btn">
-            <img src="/image/agregar.png" alt="cart" class="btn-sumar"  title="Agregar"width="22"><span class="badge bg-secondary"></span></img>
+            <img src="../image/agregar.png" alt="cart" class="btn-sumar"  title="Agregar"width="22"><span class="badge bg-secondary"></span></img>
           </a></td>
             <td class="text-center fw-bold" width="130">$ ${(vino.precio * vino.cantidad).toFixed(2)}</td>
             <td class="text-center" width="80"><a href="" class="btn">
@@ -65,7 +65,7 @@ function itemsEnCarrito() {
     </tfoot></table>`;
     contenido += `<button type="button" class="btn btn-success col-4 mx-auto" width="80">FINALIZAR COMPRA</button>`;
   }
-  document.getElementById("productos").innerHTML = contenido;
+  document.getElementById("productos_carrito").innerHTML = contenido;
 }
 
 
