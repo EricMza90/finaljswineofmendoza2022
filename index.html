@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wines Of Mendoza</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="/image/favicon-96x96.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Edu+TAS+Beginner&family=Nunito:wght@300&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header >
+      <div><a href="index.html"><img src="./image/Logob.png" width="100px" alt=""></a></div>
+        <div id="barra" class="col-md-6">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="padding-left: 5px; padding-right: 5px;" >
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">TIENDA</a>
+                        </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/vinos.html">VINOS</a>
+                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./pages/pago.html">CARRITO</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+       <div class="col-md-6 d-flex align-item-center justify-content-end">
+        <a href="./pages/pago.html" id="btn-cart" class ="carrito" title="Ver Carrito"></a>
+       </div>
+      </header>
+      <main id="contenedor">
+        <marquee behavior=alternate SCROLLAMOUNT=5 style="font-size: 25px; font-weight: bold;">OBTENE UN 15% DE DESCUENTO LLEVANDO 4 O MAS VINOS IGUALES O DIFERENTES!!!</marquee>
+        <h4 class ="text-center display-6" style="margin-top: 20px; font-size: 26px; text-transform:uppercase; margin-bottom: 40px; font-weight: bold;">Nuestros Vinos</h4>
+        <div id="productos" class="row" style="margin-left: 70px; margin-right: 50px;"></div>
+        <div id="extras" style="margin-left: 50px; margin-right: 50px">
+          <div class="img_extras" ><img src="./image/entrega.png" height="70" width="70" style="margin-top: 10px;" alt=""><p class="text-center" style="text-transform:uppercase; color: white; margin-top: 10px; font-weight: bold;">Envios Gratis a Mendoza en 24 a 72 hrs</p></div>
+          <div class="img_extras" ><img src="./image/copa-de-vino.png" height="70" width="70" style="margin-top: 10px;" alt=""><p class="text-center" style="text-transform:uppercase; color: white; margin-top: 10px; font-weight: bold;">La mejor seleccion de vinos</p></div>
+          <div class="img_extras" ><img src="./image/price.png" height="70" width="70" style="margin-top: 10px;" alt=""><p class="text-center" style="text-transform:uppercase; color: white; margin-top: 10px; font-weight: bold;">el mejor precio garantizado</p></div>
+        </div>
+      </main>
+    <footer class="text-white text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <div>
+                <p class="pt-2">
+                  <p>Suscribete a nuestro Newsletter</p>
+                </p>
+              </div>
+              <div>
+                <div class="form-outline">
+                  <input type="email" id="form5Example27" class="form-control"/>
+                  <label class="form-label " for="form5Example27">Email</label>
+                </div>
+              </div>
+              <div class="col-auto">
+                <button type="submit" class="btn btn-outline-light mb-4">
+                  Suscribe
+                </button>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0" style="margin-top: 12px;">
+              <p class="text-uppercase">Medios de Pagos</p>
+              <img class="p-2" src="./image/visa.png" style="width: 60px ;" alt="">
+              <img class="p-2" src="./image/mastercard.png" style="width: 60px ;" alt="">
+              <img class="p-2" src="./image/american-express.png" style="width: 60px ;" alt="">
+              <img class="p-2" src="./image/mercado pago.png" style="width: 60px ;" alt="">
+            </div>
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0" style="margin-top: 12px;">
+              <p class="text-uppercase">Nuestras Redes</p>
+              <img class="p-2" src="./image/facebook.png" style="width: 50px;margin-top: 8px;" alt="">
+              <img class="p-2" src="./image/instagram.png" style="width: 50px;margin-top: 8px; " alt="">
+              <img class="p-2" src="./image/twitter.png" style="width: 50px;margin-top: 8px;" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          © 2022 Copyright: Todos los derechos reservados
+          <strong>Creado por EricMza90</strong>
+        </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="./js/main.js"></script>
+      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
