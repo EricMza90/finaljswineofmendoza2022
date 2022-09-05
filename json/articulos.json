@@ -1,86 +1,85 @@
-[
-  {
-    "nombre": "Kaiken Estate",
-    "id": 1,
-    "precio": 1250,
-    "imagen": "../image/kaikenmalbec.png",
-    "varietal": "MALBEC"
-  },
-  {
-    "nombre": "Killka",
-    "id": 2,
-    "precio": 1100,
-    "imagen": "../image/kilkamalbec.png",
-    "varietal": "MALBEC"
-  },
-  {
-    "nombre": "Cordero con Piel de Lobo ",
-    "id": 3,
-    "precio": 990,
-    "imagen": "../image/corderolobo.png",
-    "varietal": "MALBEC"
-  },
-  {
-    "nombre": "Mil Piedras ",
-    "id": 4,
-    "precio": 1250,
-    "imagen": "../image/milpiedras.png",
-    "varietal": "CABERNET SAUVIGNON"
-  },
-  {
-    "nombre": "AlbaFlor",
-    "id": 5,
-    "precio": 1300,
-    "imagen": "../image/albaflor.png",
-    "varietal": "CABERNET SAUVIGNON"
-  },
-  {
-    "nombre": "Trivento Reserve",
-    "id": 6,
-    "precio": 1300,
-    "imagen": "../image/trivento.png",
-    "varietal": "CABERNET SAUVIGNON"
-  },
-  {
-    "nombre": "La Flor Sauvignon Blanc",
-    "id": 7,
-    "precio": 1100,
-    "imagen": "../image/laflorblanc.png",
-    "varietal": "BLANCO"
-  },
-  {
-    "nombre": "Crios Torrontes",
-    "id": 8,
-    "precio": 1100,
-    "imagen": "../image/crios.png",
-    "varietal": "BLANCO"
-  },
-  {
-    "nombre": "Santa Julia Chenin Dulce",
-    "id": 9,
-    "precio": 820,
-    "imagen": "../image/chenin.png",
-    "varietal": "BLANCO"
-  },
-  {
-    "nombre": "Norton Cosecha Tardia",
-    "id": 10,
-    "precio": 690,
-    "imagen": "../image/nortontardio.png",
-    "varietal": "BLANCO"
-  },
-  {
-    "nombre": "La Flor",
-    "id": 11,
-    "precio": 1150,
-    "imagen": "../image/laflorrose.png",
-    "varietal": "ROSE"
-  },
-  {
-    "nombre": "Kaiken Malbec",
-    "id": 12,
-    "precio": 1250,
-    "imagen": "../image/kaikenrose.png",
-    "varietal": "ROSE"
-  }
+[{
+  "nombre": "Kaiken Estate",
+  "id": 1,
+  "precio": 1250,
+  "imagen": "../image/kaikenmalbec.png",
+  "varietal": "MALBEC"
+},
+{
+  "nombre": "Killka",
+  "id": 2,
+  "precio": 1100,
+  "imagen": "../image/kilkamalbec.png",
+  "varietal": "MALBEC"
+},
+{
+  "nombre": "Cordero con Piel de Lobo ",
+  "id": 3,
+  "precio": 990,
+  "imagen": "../image/corderolobo.png",
+  "varietal": "MALBEC"
+},
+{
+  "nombre": "Mil Piedras ",
+  "id": 4,
+  "precio": 1250,
+  "imagen": "../image/milpiedras.png",
+  "varietal": "CABERNET SAUVIGNON"
+},
+{
+  "nombre": "AlbaFlor",
+  "id": 5,
+  "precio": 1300,
+  "imagen": "../image/albaflor.png",
+  "varietal": "CABERNET SAUVIGNON"
+},
+{
+  "nombre": "Trivento Reserve",
+  "id": 6,
+  "precio": 1300,
+  "imagen": "../image/trivento.png",
+  "varietal": "CABERNET SAUVIGNON"
+},
+{
+  "nombre": "La Flor Sauvignon Blanc",
+  "id": 7,
+  "precio": 1100,
+  "imagen": "../image/laflorblanc.png",
+  "varietal": "BLANCO"
+},
+{
+  "nombre": "Crios Torrontes",
+  "id": 8,
+  "precio": 1100,
+  "imagen": "../image/crios.png",
+  "varietal": "BLANCO"
+},
+{
+  "nombre": "Santa Julia Chenin Dulce",
+  "id": 9,
+  "precio": 820,
+  "imagen": "../image/chenin.png",
+  "varietal": "BLANCO"
+},
+{
+  "nombre": "Norton Cosecha Tardia",
+  "id": 10,
+  "precio": 690,
+  "imagen": "../image/nortontardio.png",
+  "varietal": "BLANCO"
+},
+{
+  "nombre": "La Flor",
+  "id": 11,
+  "precio": 1150,
+  "imagen": "../image/laflorrose.png",
+  "varietal": "ROSE"
+},
+{
+  "nombre": "Kaiken Malbec",
+  "id": 12,
+  "precio": 1250,
+  "imagen": "../image/kaikenrose.png",
+  "varietal": "ROSE"
+}
 ]
