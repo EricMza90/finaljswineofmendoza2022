@@ -1,4 +1,3 @@
-
 function stock() {
   const stockTienda = stockEnLS();
 
