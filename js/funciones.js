@@ -9,8 +9,8 @@ function jsonALocalStorage() {
       if (typeof data === "string") {
         data = JSON.parse(data);
       } else
-        data.forEach(function (item) {
-          array.push(item);
+        data.forEach(function (unidad) {
+          array.push(unidad);
         });
 
       localStorage.setItem("json", JSON.stringify(array));

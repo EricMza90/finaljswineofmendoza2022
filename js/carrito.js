@@ -66,7 +66,7 @@ function itemsEnCarrito() {
     contenido += `<button type="button" class="btn btn-success col-4 mx-auto" width="80">FINALIZAR COMPRA</button>`;
   }
   document.getElementById("productos_carrito").innerHTML = contenido;
-  console.log(seleccion)
+
 }
 
 
