@@ -63,7 +63,7 @@ function agregarAlCarrito() {
       if (pos > -1) {
         itemsCarrito[pos].cantidad += 1;
       } else {
-        let item = array.findIndex((vino) => vino.id === itemId);
+        let item = array.find((vino) => vino.id === itemId);
         console.log(item);
         item.cantidad = 1;
         itemsCarrito.push(item);

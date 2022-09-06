@@ -7,7 +7,7 @@ function itemsEnCarrito() {
     contenido = `<div class="alert alert-secondary text-center col-4 mx-auto" role="alert"> <b>Tu Carrito esta Vacio !!!</b></div>`;
   } else {
     contenido += `
-    <table class="table table-refresh table-hover table-borderless bg-white">
+    <table class="table table-hover table-borderless bg-white">
       <thead>
       <tr class="bg-dark">
         <th class="text-white text-center">PRODUCTO</th>
@@ -66,6 +66,7 @@ function itemsEnCarrito() {
     contenido += `<button type="button" class="btn btn-success col-4 mx-auto" width="80">FINALIZAR COMPRA</button>`;
   }
   document.getElementById("productos_carrito").innerHTML = contenido;
+  console.log(seleccion)
 }
 
 
